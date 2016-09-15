@@ -1,12 +1,12 @@
 **ViciQloud Boilerplate**
 Boilerplate with NodeJS server and AngularJS written for educational purposes.
 
-** It presents how to launch a micro server in NodeJS with Express framework
-** It shows the definition on the Api endpoints
-** It shows how the modules can be exported and exported
-** It presents an example communication between Client AngularApp and NodeJS Server.
-** It demonstrates an example use of one-way binding in AngularJS
-** It shows use of controllers without $scope (the 'angular2' way)
+** It presents how to launch a micro server in NodeJS with Express framework 
+** It shows the definition on the Api endpoints 
+** It shows how the modules can be exported and exported 
+** It presents an example communication between Client AngularApp and NodeJS Server 
+** It demonstrates an example use of one-way binding in AngularJS 
+** It shows use of controllers without $scope (the 'angular2' way) 
 
 ## Startup
 ```
@@ -25,7 +25,7 @@ node server.js
 
 The server starts at port 8080.
 
-## What happens in the AngularApp?
+## What happens it this code?
 1. You request a resource from the API endpoint GET /angularapp.
 1. The endpoint is declared in routes.js
 1. It sends you a static file app.html.
