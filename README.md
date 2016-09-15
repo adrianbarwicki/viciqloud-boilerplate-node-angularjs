@@ -1,12 +1,17 @@
 **ViciQloud Boilerplate**
 Boilerplate with NodeJS server and AngularJS written for educational purposes.
 
-** It presents how to launch a micro server in NodeJS with Express framework 
-** It shows the definition on the Api endpoints 
-** It shows how the modules can be exported and exported 
-** It presents an example communication between Client AngularApp and NodeJS Server 
-** It demonstrates an example use of one-way binding in AngularJS 
-** It shows use of controllers without $scope (the 'angular2' way) 
+** It presents how to launch a micro server in NodeJS with Express framework
+
+** It shows the definition on the Api endpoints
+
+** It shows how the modules can be exported and exported
+
+** It presents an example communication between Client AngularApp and NodeJS server
+
+** It demonstrates an example use of one-way binding in AngularJS
+
+** It shows use of controllers without $scope (the 'angular2' way)
 
 ## Startup
 ```
