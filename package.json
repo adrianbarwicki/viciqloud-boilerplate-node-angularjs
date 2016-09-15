@@ -1,0 +1,16 @@
+{
+  "name": "viciqloud-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate application starter with Express, AngularJS and MongoDB",
+  "main": "app.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "Adrian Barwicki",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0"
+  }
+}
