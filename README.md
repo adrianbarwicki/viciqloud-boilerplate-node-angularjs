@@ -3,9 +3,9 @@ Boilerplate with NodeJS server and AngularJS written for educational purposes.
 
 ** It presents how to launch a micro server in NodeJS with Express framework
 
-** It shows the definition on the Api endpoints
+** It shows the definition of the Api endpoints
 
-** It shows how the modules can be exported and exported
+** It shows how the modules can be exported and imported
 
 ** It presents an example communication between Client AngularApp and NodeJS server
 
