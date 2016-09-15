@@ -8,6 +8,7 @@ module.exports = functionToBeExported;
 function functionToBeExported(expressApp){
 
         expressApp.get("/angularapp",(req,res)=>{
+            console.log("GET /angularapp : Sending angular app with public/app.html");
             /**
              * Send the ./public/app.html file to the user
              */
@@ -20,11 +21,15 @@ function functionToBeExported(expressApp){
 
 
         /**
-         * Another API path that when requested, responses with random number
+         * Another API path that when requested, waits 1 sec and responses with random number
          */
         expressApp.get("/get-random-number",function(req,res){
-            var randomNumber = Math.floor((Math.random()*10000));
-            res.send({randomNumber : randomNumber})
+            console.log("GET /get-random-number : Getting random number");
+            setTimeout(()=>{
+                var randomNumber = Math.floor((Math.random()*10000));
+                res.send({randomNumber : randomNumber});
+            },1000)
+            
         })
 
 }

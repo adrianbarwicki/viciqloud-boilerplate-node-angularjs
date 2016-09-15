@@ -26,12 +26,12 @@ app.get("/",(req,res)=>{
      res.header('Content-Type', 'text/html');
 
      // now we send a short message to the user
-     res.send("Hello, welcome to the <a href='https://viciqloud.com'>ViciQloud</a> Boilerplate App.");
+     res.send("<h1>Hello</h1>Welcome to the <a href='https://viciqloud.com'>ViciQloud</a> Boilerplate App.<br> Go to <a href='/angularapp'>AngularApp</a>...");
 
 });
 var path = require("path")
 app.use("/libs",express.static(path.join(__dirname, 'node_modules')));
-
+app.use("/",express.static(path.join(__dirname, 'public')));
 
 /**
  * We can also specify API endpoints like that:

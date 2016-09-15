@@ -2,7 +2,7 @@
   "name": "viciqloud-boilerplate",
   "version": "1.0.0",
   "description": "Boilerplate application starter with Express, AngularJS and MongoDB",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "test": "jasmine"
   },
